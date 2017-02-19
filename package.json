@@ -1,0 +1,46 @@
+{
+  "name": "vue2-todomvc",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "Neo Pan <neo.pan@elitesland.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "todomvc-app-css": "^2.0.6",
+    "vue": "^2.1.0",
+    "vue-loader": "^10.0.0",
+    "vue-template-compiler": "^2.1.0",
+    "vuex": "^2.1.2",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panlw/vue2-todomvc.git"
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "vuex",
+    "todomvc"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panlw/vue2-todomvc/issues"
+  },
+  "homepage": "https://github.com/panlw/vue2-todomvc#readme"
+}
